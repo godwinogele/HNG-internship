@@ -1,25 +1,25 @@
-Technical Report: Analysis of Retail Dataset
+# Technical Report: Analysis of Retail Dataset
 
-1. Introduction
+# 1. Introduction
 The HNG Internship program emphasizes the importance of data analysis for informed decision-making in businesses (https://hng.tech/internship). As an HNG Internship participant, I am honing my data analysis skills to extract valuable insights applicable to various business functions.
 This dataset provides a valuable opportunity to explore real-world sales transaction information and gain insights applicable to various business functions.
 This report details an initial analysis of a Retail Dataset from Kaggle. The data contains sales transactions of a company selling motorcycles, planes, ships, trains, trucks and buses, vintage cars and classic cars.
 
-2. Data Description
+# 2. Data Description
 The dataset provides a granular view of individual orders, encompassing details on products, customers, and order statuses. Here's a breakdown of key observations:
 •	Order Details: Each record represents a single order and includes information like order number, quantity ordered, price per item, order date, order status, product line associated with the order, and customer details such as name, address, and phone number.
 •	Products: The data categorizes products into seven distinct lines: motorcycles, airplanes, ships, trains, trucks & buses, vintage cars, and classic cars. Each product is uniquely identified by a product code.
 •	Order Statuses: Orders can be in various stages throughout the fulfillment process, reflected by statuses like "Cancelled", "Disputed", "In Process", "On Hold", "Resolved", or "Shipped".
 •	Dates: The timeframe covered by the dataset spans across the years 2003 and 2005. While the exact date range cannot be determined from this initial exploration, further investigation can pinpoint the specific start and end dates.
 
-3. Next Steps
+# 3. Next Steps
 Further analysis could involve:
 •	Exploring the complete dataset for a more comprehensive understanding of sales trends.
 •	Filtering data by product line, order status, or date range to identify patterns.
 •	Calculating metrics like total sales, average order value, and customer acquisition costs.
 
 
-4. Conclusion
+# 4. Conclusion
 This initial analysis provides a basic understanding of the structure of the retail dataset. The data offers a wealth of information that can be harnessed to gain valuable insights into sales performance, customer behaviour, and product popularity. Further exploration through data cleaning, detailed analysis, and potentially machine learning techniques can yield valuable insights into sales performance, customer behaviour, and product popularity. 
  
 Table showing the status of orders
@@ -44,7 +44,7 @@ Grand Total        ||  60         ||  14        ||  41          ||    44     || 
 =====================================================================================================
 
 
-Dataset Familiarization:
+# Dataset Familiarization:
 •	Structure and contents of the dataset
 The data can be classified into two main categories:
 •	Numerical data types: 
@@ -75,7 +75,7 @@ TERRITORY: String (may allow null values)
 CONTACTLASTNAME: String
 CONTACTFIRSTNAME: String
 
-•	Key variables and data types
+# •	Key variables and data types
 =================================
 Key variables    ||    Data type
 =================================
