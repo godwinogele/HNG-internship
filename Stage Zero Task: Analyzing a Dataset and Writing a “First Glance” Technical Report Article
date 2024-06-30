@@ -24,9 +24,9 @@ This initial analysis provides a basic understanding of the structure of the ret
  
 Table showing the status of orders
 =====================================================================================================
-Product            ||  Cancelled  ||  Disputed  ||  In Process  ||  On Hold  ||  Resolved  ||	Shipped
+Product            ||  Cancelled  ||  Disputed  ||  In Process  ||  On Hold  ||  Resolved ||	Shipped
 =====================================================================================================
-Classic Cars       ||  16	        ||  3	        ||  14          ||   	12	   ||   8	      ||    914
+Classic Cars       ||  16         ||  3         ||  14          ||    12     ||    8      ||    914
 -----------------------------------------------------------------------------------------------------
 Motorcycles        ||             ||  6         ||              ||    1      ||           ||    324
 -----------------------------------------------------------------------------------------------------
