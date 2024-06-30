@@ -41,3 +41,53 @@ Trucks and Buses   ||             ||            ||  11          ||    4      || 
 Vintage Cars       ||  13         ||  2         ||  16          ||    9      ||   10      ||    557
 =====================================================================================================
 Grand Total        ||  60         ||  14        ||  41          ||    44     ||   47      ||    2617
+=====================================================================================================
+
+
+Dataset Familiarization:
+•	Structure and contents of the dataset
+The data can be classified into two main categories:
+•	Numerical data types: 
+ORDERNUMBER (this is a unique identifier for orders and not used for calculations): String (object)
+QUANTITYORDERED: Integer
+PRICEEACH: Float
+ORDERLINENUMBER: Integer
+SALES: Float
+QTR_ID: Integer (this represents quarter of the year)
+MONTH_ID: Integer (this represents month of the year)
+YEAR_ID: Integer
+MSRP: Float
+DEALSIZE: Float
+•	Categorical data types: 
+ORDERDATE: Date (String)
+STATUS: String
+PRODUCTLINE: String
+PRODUCTCODE: String (this is a unique identifier for products)
+CUSTOMERNAME: String
+PHONE: String
+ADDRESSLINE1: String
+ADDRESSLINE2: String (may allow null values)
+CITY: String
+STATE: String (may allow null values)
+POSTALCODE: String
+COUNTRY: String
+TERRITORY: String (may allow null values)
+CONTACTLASTNAME: String
+CONTACTFIRSTNAME: String
+
+•	Key variables and data types
+=================================
+Key variables    ||    Data type
+=================================
+Product line     ||   Categorical
+---------------------------------
+Status           ||   Categorical
+---------------------------------
+Sales            ||   Numerical
+---------------------------------
+Deal size        ||   Numerical
+---------------------------------
+Year ID          ||   Numerical
+---------------------------------
+Quantity ordered ||   Numerical
+---------------------------------
